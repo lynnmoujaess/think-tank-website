@@ -1,4 +1,59 @@
 body {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+.quote-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 110px;
+  padding-bottom: 40px;
+}
+
+.quote-h1 {
+  font-family: "Julius Sans One", sans-serif;
+  margin: 0;
+  font-size: 40px;
+  width: 60%;
+  text-align: center;
+}
+
+.quote-p {
+  font-family: "Raleway", sans-serif;
+}
+
+.separator-line {
+  width: 10%;
+  height: 1.5px;
+  background-color: #318cba;
+  margin: 0 auto;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3% 7%;
+}
+
+.about-us-div {
+  width: 29%;
+}
+
+.about-us-h3-div {
+  margin-bottom: 10%;
+  font-weight: bold;
+}
+
+.about-us-h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.about-us-p {
+  font-family: "Raleway", sans-serif;
+  line-height: 25px;
+  font-weight: 300;
+}
