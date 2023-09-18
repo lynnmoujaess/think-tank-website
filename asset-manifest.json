@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/think-tank-website/static/css/main.668525a8.css",
+    "main.js": "/think-tank-website/static/js/main.6d6e3e69.js",
+    "static/media/slick.svg": "/think-tank-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/think-tank-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/think-tank-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/think-tank-website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/think-tank-website/index.html",
+    "main.668525a8.css.map": "/think-tank-website/static/css/main.668525a8.css.map",
+    "main.6d6e3e69.js.map": "/think-tank-website/static/js/main.6d6e3e69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.668525a8.css",
+    "static/js/main.6d6e3e69.js"
+  ]
+}
