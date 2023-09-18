@@ -1,0 +1,58 @@
+.logo {
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    height: 80px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    margin: 0; /* Remove any margin */
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 40px;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(138, 136, 136);
+}  
+
+.department-name {
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: row;
+}
