@@ -83,19 +83,19 @@ const Footer = () => {
       </div>
       <div className="logos-div">
         <img style={{width: "20%"}}
-          src={process.env.PUBLIC_URL + "Photos/logos/bmw-group-logo.png"}
+          src={process.env.PUBLIC_URL + "/Photos/logos/bmw-group-logo.png"}
           alt=""
         />
         <img style={{width: "16%"}}
-          src={process.env.PUBLIC_URL + "Photos/logos/bmw-logo.png"}
+          src={process.env.PUBLIC_URL + "/Photos/logos/bmw-logo.png"}
           alt=""
         />
         <img style={{width: "22%"}}
-          src={process.env.PUBLIC_URL + "Photos/logos/mini-cooper-logo.png"}
+          src={process.env.PUBLIC_URL + "/Photos/logos/mini-cooper-logo.png"}
           alt=""
         />
         <img style={{width: "32%", paddingLeft: "3%"}}
-          src={process.env.PUBLIC_URL + "Photos/logos/rolls-royce-logo.png"}
+          src={process.env.PUBLIC_URL + "/Photos/logos/rolls-royce-logo.png"}
           alt=""
         />
       </div>

@@ -56,7 +56,7 @@ const Homepage = () => {
         <div className="logo-div">
           <img
             className="logo"
-            src={process.env.PUBLIC_URL + "Photos/logos/bmw-logo-navbar.png"}
+            src={process.env.PUBLIC_URL + "/Photos/logos/bmw-logo-navbar.png"}
             alt=""
           />
           <div>
@@ -148,7 +148,7 @@ const Homepage = () => {
         <div className="moving-car-div">
           <img
             className="moving-car-img"
-            src={process.env.PUBLIC_URL + "Photos/car-side.png"}
+            src={process.env.PUBLIC_URL + "/Photos/car-side.png"}
             style={{
               width: "29%",
               position: "relative",
@@ -163,13 +163,13 @@ const Homepage = () => {
           <div className="cards-container">
             <ValueCard
               value="Openness"
-              img={process.env.PUBLIC_URL + "Photos/values/openness-value.jpeg"}
+              img={process.env.PUBLIC_URL + "/Photos/values/openness-value.jpeg"}
               description="We are excited by change and open to new opportunities. We learn from our mistakes in order to create our future. We take our colleagues' ideas seriously, because every little impulse can turn into something great."
             />
             <ValueCard
               value="Transparency"
               img={
-                process.env.PUBLIC_URL + "Photos/values/transparency-value.jpeg"
+                process.env.PUBLIC_URL + "/Photos/values/transparency-value.jpeg"
               }
               description="We do not embellish, but point out contradictions constructively. We act with integrity and talk to each other. This is the only way to create trust and bring our visions onto the streets."
             />
@@ -177,19 +177,19 @@ const Homepage = () => {
               value="Responsibility"
               img={
                 process.env.PUBLIC_URL +
-                "Photos/values/responsibility-value.jpeg"
+                "/Photos/values/responsibility-value.jpeg"
               }
               description="We take consistent decisions and commit to them personally. This allows us to work freely and more effectively. By taking responsibility for our own projects, we can develop ourselves further personally."
             />
             <ValueCard
               value="Trust"
-              img={process.env.PUBLIC_URL + "Photos/values/trust-value.jpeg"}
+              img={process.env.PUBLIC_URL + "/Photos/values/trust-value.jpeg"}
               description="We trust and rely on each other. We are a team that sticks together and only grows together. This is essential if we are to act swiftly and achieve our goals which take us further."
             />
             <ValueCard
               value="Appreciation"
               img={
-                process.env.PUBLIC_URL + "Photos/values/appreciation-value.jpeg"
+                process.env.PUBLIC_URL + "/Photos/values/appreciation-value.jpeg"
               }
               description="We reflect on our actions, respect each other. Clarity, feedback and celebrating each other's success are crucial for a positive working atmosphere. Every individual makes a difference."
             />
@@ -210,7 +210,7 @@ const Homepage = () => {
                 <Testimonial
                   img={
                     process.env.PUBLIC_URL +
-                    "Photos/team/Alena Sukhoverkhova.png"
+                    "/Photos/team/Alena Sukhoverkhova.png"
                   }
                   text={`"My first few weeks in the PMO Performance Control and Digitalisation Operational Supply Chain role at BMW Group have been an absolute blast! 
                 The company's commitment to innovation and digitalization is palpable, and it's exciting to be part of a team at the forefront of shaping the industry's future."`}
@@ -218,7 +218,7 @@ const Homepage = () => {
                   position="PMO"
                 />
                 <Testimonial
-                  img={process.env.PUBLIC_URL + "Photos/team/Julia Hehl.png"}
+                  img={process.env.PUBLIC_URL + "/Photos/team/Julia Hehl.png"}
                   text={`"After almost a month at BMW Supply Chain
                 Innovations Think Tank, I am happy that I joined such a motivated team, dedicated to bringing value to our business partners.
                 I am looking forward to the future challenges, adding to the company's success together with my team mates!"`}
@@ -228,7 +228,7 @@ const Homepage = () => {
                 <Testimonial
                   img={
                     process.env.PUBLIC_URL +
-                    "Photos/team/Mustafa Berkay Kuscu.png"
+                    "/Photos/team/Mustafa Berkay Kuscu.png"
                   }
                   text={`"I am flattered by the warm welcome I received from the team, and I already feel as a part of it.
                 Only in a couple of days, I was able to see the potential each person holds and it is impossible not to be fascinated by them.
@@ -240,21 +240,21 @@ const Homepage = () => {
               <div className="testimonials-container">
                 <Testimonial
                   img={
-                    process.env.PUBLIC_URL + "Photos/team/Jonathan Oelhafen.png"
+                    process.env.PUBLIC_URL + "/Photos/team/Jonathan Oelhafen.png"
                   }
                   text={`"The BMW Supply Chain Innovations ThinkTank brings together young, talented and motivated individuals from all over the world to use modern IT solutions to make supply chains and supplier relationships more efficient. I am looking forward to the challenges that lie ahead."`}
                   name="Jonathan Oelhafen"
                   position="Data Engineer"
                 />
                 <Testimonial
-                  img={process.env.PUBLIC_URL + "Photos/team/Yichun Xie.png"}
+                  img={process.env.PUBLIC_URL + "/Photos/team/Yichun Xie.png"}
                   text={`"With supportive mentors, diverse opinions, and innovative minds, I have been encouraged to learn new technical tools, develop business insights, and contribute to fun projects which provide digital solutions to the current problems in the supply chain."`}
                   name="Yichun Xie"
                   position="Data Scientist"
                 />
                 <Testimonial
                   img={
-                    process.env.PUBLIC_URL + "Photos/team/Aabhash Dhakal.png"
+                    process.env.PUBLIC_URL + "/Photos/team/Aabhash Dhakal.png"
                   }
                   text={`"When I look around me, I see ambitious, brilliant, experienced colleagues with a diverse set of ideas and skills. Everyone in the team is bringing their 'A-game' to the table, working on exciting projects which enable BMW to function without a hitch."`}
                   name="Aabhash Dhakal"
@@ -265,21 +265,21 @@ const Homepage = () => {
                 <Testimonial
                   img={
                     process.env.PUBLIC_URL +
-                    "Photos/team/Fridrik Gunnarsson.png"
+                    "/Photos/team/Fridrik Gunnarsson.png"
                   }
                   text={`"All over the world, market-leading companies are working towards future-proofing their supply chains by increasing resilience, agility, and sustainability. Witnessing first-hand the approach taken by BMW, a world-leading company, has underscored to me its ambition and innovative culture."`}
                   name="Fridrik Gunnarsson"
                   position="MBA Intern"
                 />
                 <Testimonial
-                  img={process.env.PUBLIC_URL + "Photos/team/Sabine Farhat.png"}
+                  img={process.env.PUBLIC_URL + "/Photos/team/Sabine Farhat.png"}
                   text={`"I'm beyond excited to immerse myself in this dynamic and innovative environment, and I am honored to be a part of such a dynamic team that's driving the future of mobility. The team has immense passion and talent and I look forward to joining our skills to create a driving force of change and growth."`}
                   name="Sabine Farhat"
                   position="Data Scientist"
                 />
                 <Testimonial
                   img={
-                    process.env.PUBLIC_URL + "Photos/team/Clarissa Anjani.png"
+                    process.env.PUBLIC_URL + "/Photos/team/Clarissa Anjani.png"
                   }
                   text={`"What recent events have taught us is that the world can change extremely quickly. If one has an intelligent supply chain with products from the Think Tank, BMW can have more capacity to manage unpredictable emergencies, enabling better products and lower costs."`}
                   name="Clarissa Anjani"
