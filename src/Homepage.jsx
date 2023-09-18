@@ -168,6 +168,13 @@ const Homepage = () => {
             />
           </div>
         </div>
+        <div className="separator">
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+        </div>
       </div>
     </>
   );
