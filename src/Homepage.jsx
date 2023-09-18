@@ -39,6 +39,17 @@ const Homepage = () => {
     dots: true,
   };
 
+  const scrollToSection = (sectionId, offset) => {
+    const targetSection = document.getElementById(sectionId);
+    
+    if (targetSection) {
+      const yOffset = offset || 0; // You can specify an offset or use 0 as the default
+      const y = targetSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
       <nav>
@@ -55,16 +66,16 @@ const Homepage = () => {
         </div>
         <ul>
           <li>
-            <a>Home</a>
+            <a onClick={() => scrollToSection("home", -80)}>Home</a>
           </li>
           <li>
-            <a>About Us</a>
+            <a onClick={() => scrollToSection("about-us", -25)}>About Us</a>
           </li>
           <li>
-            <a>Our Values</a>
+            <a onClick={() => scrollToSection("our-values", -110)}>Our Values</a>
           </li>
           <li>
-            <a>Testimonials</a>
+            <a onClick={() => scrollToSection("testimonials", -80)}>Testimonials</a>
           </li>
         </ul>
       </nav>

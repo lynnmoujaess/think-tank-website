@@ -50,4 +50,6 @@ a {
     align-items: center;
     align-items: flex-end;
     gap: 1%;
+    width: 30%;
+    height: auto;
 }
