@@ -1,9 +1,34 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./NavbarStyles.css";
 import Slideshow from "./Slideshow";
 import "./HomepageStyles.css";
 
 const Homepage = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [carVisible, setCarVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const carPosition = carVisible ? `${scrollPosition * 0.8}px` : "-200%";
+
+  useEffect(() => {
+    const animationDelay = setTimeout(() => {
+      setCarVisible(true);
+    }, 1000);
+
+    return () => clearTimeout(animationDelay);
+  }, []);
+
   return (
     <>
       <nav>
@@ -98,6 +123,19 @@ const Homepage = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="moving-car-div">
+          <img
+            className="moving-car-img"
+            src={process.env.PUBLIC_URL + "Photos/car-side.png"}
+            style={{
+              width: "29%",
+              position: "relative",
+              left: carPosition,
+              transition: "left 0.3s ease",
+            }}
+            alt=""
+          />
         </div>
       </div>
     </>
