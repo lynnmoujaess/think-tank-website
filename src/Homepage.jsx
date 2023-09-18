@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./NavbarStyles.css";
 import Slideshow from "./Slideshow";
 import "./HomepageStyles.css";
+import ValueCard from "./ValueCard";
 
 const Homepage = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -136,6 +137,36 @@ const Homepage = () => {
             }}
             alt=""
           />
+        </div>
+        <div id="our-values" className="section-div">
+          <h2 className="section-h2">Our Values</h2>
+          <div className="cards-container">
+            <ValueCard
+              value="Openness"
+              img={process.env.PUBLIC_URL + "Photos/values/openness-value.jpeg"}
+              description="We are excited by change and open to new opportunities. We learn from our mistakes in order to create our future. We take our colleagues' ideas seriously, because every little impulse can turn into something great."
+            />
+            <ValueCard
+              value="Transparency"
+              img={process.env.PUBLIC_URL + "Photos/values/transparency-value.jpeg"}
+              description="We do not embellish, but point out contradictions constructively. We act with integrity and talk to each other. This is the only way to create trust and bring our visions onto the streets."
+            />
+            <ValueCard
+              value="Responsibility"
+              img={process.env.PUBLIC_URL + "Photos/values/responsibility-value.jpeg"}
+              description="We take consistent decisions and commit to them personally. This allows us to work freely and more effectively. By taking responsibility for our own projects, we can develop ourselves further personally."
+            />
+            <ValueCard
+              value="Trust"
+              img={process.env.PUBLIC_URL + "Photos/values/trust-value.jpeg"}
+              description="We trust and rely on each other. We are a team that sticks together and only grows together. This is essential if we are to act swiftly and achieve our goals which take us further."
+            />
+            <ValueCard
+              value="Appreciation"
+              img={process.env.PUBLIC_URL + "Photos/values/appreciation-value.jpeg"}
+              description="We reflect on our actions, respect each other. Clarity, feedback and celebrating each other's success are crucial for a positive working atmosphere. Every individual makes a difference."
+            />
+          </div>
         </div>
       </div>
     </>
