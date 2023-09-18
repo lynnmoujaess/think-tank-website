@@ -7,6 +7,7 @@ import Testimonial from "./Testimonial";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Footer from "./Footer";
 
 const Homepage = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -277,6 +278,7 @@ const Homepage = () => {
             </Slider>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
