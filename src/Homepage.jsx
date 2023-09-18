@@ -1,5 +1,7 @@
 import React from "react";
 import "./NavbarStyles.css";
+import Slideshow from "./Slideshow";
+import "./HomepageStyles.css";
 
 const Homepage = () => {
   return (
@@ -31,6 +33,13 @@ const Homepage = () => {
           </li>
         </ul>
       </nav>
+      <div
+        style={{ marginTop: "80px", display: "flex", flexDirection: "column" }}
+      >
+        <div id="home">
+          <Slideshow />
+        </div>
+      </div>
     </>
   );
 };
