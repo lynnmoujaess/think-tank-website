@@ -43,7 +43,7 @@ const Homepage = () => {
     const targetSection = document.getElementById(sectionId);
     
     if (targetSection) {
-      const yOffset = offset || 0; // You can specify an offset or use 0 as the default
+      const yOffset = offset || 0;
       const y = targetSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
       
       window.scrollTo({ top: y, behavior: 'smooth' });
