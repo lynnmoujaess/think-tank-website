@@ -11,7 +11,6 @@ import Footer from "./Footer";
 
 const Homepage = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
-  const [carVisible, setCarVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,15 +24,7 @@ const Homepage = () => {
     };
   }, []);
 
-  const carPosition = carVisible ? `${scrollPosition * 0.8}px` : "-200%";
-
-  useEffect(() => {
-    const animationDelay = setTimeout(() => {
-      setCarVisible(true);
-    }, 1000);
-
-    return () => clearTimeout(animationDelay);
-  }, []);
+  const carPosition = `${scrollPosition * 0.8}px`;
 
   var settings = {
     dots: true,
